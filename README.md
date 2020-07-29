@@ -11,6 +11,29 @@ https://where-in-the-world-osu.herokuapp.com/
 ![whereinworld.gif](whereinworld.gif)
 
 ---
+
+## Inspiration
+Since the OSU CS post-bacc program is online it can get to where you feel like you are the only person in a 1000 mile radius that is in the program.  Our hope is that it can help people connect with other students that may live nearby. Could be used for planning in-person meet ups or finding a partner for your next group project. 
+## What it does
+It is an interactive map that shows the location and email of OSU students.  It has a form that you submit your osu email and your address.  The map is then updated with your location as a pin.  If you click on a pin it gives the email associated with that location.
+## Who We Are
+A group of students who have just completed their 3rd & 4th quarters in the program - all members are just one quarter beyond “new student” category. This was the first hackathon for all team members.
+## How We built it
+The web app uses the Google Maps Javascript API to display the map, and location markers.  The backend sends the address from the user to the Google Geocoding API and gets back the latitude and longitude along with breaking out the city, and state from the address.  The database holds the email and location of each of the markers in latitude and longitude coordinates.  Then the latitudes and longitudes are sent to the client to update the map.
+## What We learned
+How to read API documentation get the required items from a JSON response.  How to use Google Maps Javascript API to bring in locations from a database. How to work collaboratively as a team using git.
+## What's next for Where In the World
+Although we have this set up to be for the OSU Ecampus community, it really can be extended to any other community. We specifically had online learning communities in mind, but any group could use an app like this to greater strengthen their sense of community.
+Ideas to extend functionality:
+- User login credentials
+- Collect additional info from on form submission (name, slack handle, current classes, etc)
+- Use geolocation to populate form fields
+- Place marker at approximate location rather than directly at home address (for privacy purposes)
+- Additional data validation including a check for legitimate OSU email
+- More statistics and data visualization
+- Fix data visualization progress bar on home page that is supposed to show a cumulative breakdown by state.
+
+---
 ## Setting up the project locally
 Requires Node & npm
 
