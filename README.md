@@ -1,5 +1,4 @@
 # Where-in-the-World
-![](Jul-29-2020 01-53-49.gif)
 OSU Hackathon Project - This web app contains an interactive map for OSU students to pin their geographic location. As students in an online program, it can often feel like you're alone in this battle. Our hope is that this tool will help students foster connections within their local communities.
 <p>Created during the spring 2020 hackathon</p>
 <p>By: Alexis Chasney, Kelley Neubauer, Andre Paul, and Jason Rash</p>
@@ -7,6 +6,11 @@ OSU Hackathon Project - This web app contains an interactive map for OSU student
 ## Live Version
 https://where-in-the-world-osu.herokuapp.com/
 
+---
+
+![whereinworld.gif](whereinworld.gif)
+
+---
 ## Setting up the project locally
 Requires Node & npm
 
